@@ -1,0 +1,31 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~admin-lte/bower_components/bootstrap/dist/css/bootstrap.css';
+@import '~admin-lte/bower_components/font-awesome/css/font-awesome.css';
+
+@import '~admin-lte/dist/css/adminLTE.css';
+@import '~admin-lte/dist/css/skins/_all-skins.css';
+
+
+@import "~ionicons/dist/css/ionicons.css";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-exact-active{
+  background-color: blue;
+}
+
+a.router-link-exact-active{
+  color: white !important;
+}
